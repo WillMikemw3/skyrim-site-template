@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Futura Heavy font;
+    src: url(/src/fonts/futura/Futura\ Bold\ font.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-color: black;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-family: 'Futura Heavy font', sans-serif;
+    /* Aplicando a fonte no corpo do site */
+}
+
+.navbar {
+  
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0;
+
+
+
+
+}
+
+.logo {
+
+    text-align: center;
+    flex: 40%;
+}
+
+.logo h1 {
+    color: rgb(247, 247, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 7px;
+}
+
+.nav-content {
+    font-size: 20px;
+
+    flex: 80%;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.nav-content a {
+    margin-left: 40px;
+    margin: 1%;
+    color: #4d5454;
+    text-decoration: none;
+
+}
+
+#download {
+    padding-left: 10%;
+    font-size: 25px;
+}
+
+.nav-content a:hover {
+
+    padding: 10px;
+    border-top: 3px solid #394041;
+    color: green;
+
+}
+
+.header {
+    display: flex;
+
+    margin-top: 10%;
+    background-image: linear-gradient(220deg, black, rgb(24, 88, 11));
+    height: auto;
+}
+
+.headline {
+
+    align-items: center;
+    justify-content: center;
+    flex: 60%;
+    text-align: center;
+
+}
+
+.headline p {
+    margin: 0;
+    border-top: rgba(3, 235, 19, 0.462) solid 1px;
+  
+  text-align: start;
+    justify-content: center;
+    display: flex;
+    height: 3px;
+}
+
+
+.img-headline {
+    margin-right: 10%;
+    display: flex;
+    flex: 50%;
+
+    flex: 30%;
+}
+
+.headline h2 {
+    
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+
+}
+.h2{
+
+    background-image: linear-gradient(133deg, rgb(0, 0, 0) 20%, green 50%, rgb(0, 0, 0) 80%);
+
+}
+
+.cards-content {
+    background-image: linear-gradient(130deg, #171a16, #4d5454);
+    margin-top: 12%;
+    display: flex;
+    height: auto;
+ 
+ 
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    
+    margin: 1%;
+    height: 300px;
+    overflow: auto;
+    overflow-wrap: break-word;
+    flex: 25%;
+    text-align: center;
+    justify-content: right;
+    align-items:center
+
+
+}
+
+.logo-skyrim{
+flex: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+
+
+
+
+}
+
+.footer{
+    font-style: italic;
+    font-size:33px;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+    margin-top: 300px;
+background-color: #ffffff;
+border-top: 3px solid green;
+text-align: center;
+height: 200px;
+background-image: linear-gradient(130deg, #1a1616, #4d5454);
+}
